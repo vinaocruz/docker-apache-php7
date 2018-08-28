@@ -1,5 +1,4 @@
 FROM eboraas/apache
-MAINTAINER Vinicius Cruz <vinaocruz@gmail.com>
 
 RUN apt-get update && \
     apt-get install -y wget && \
